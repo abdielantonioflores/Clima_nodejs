@@ -7,7 +7,7 @@ const argv = require('yargs').options({
     desc: '  direcion de la ciudad para optener el clima ',
     demand: true
   }
-}).argv
+}).argv    
 
 let getInfo = async (direccion) => {
   try {
