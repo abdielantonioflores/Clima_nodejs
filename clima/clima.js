@@ -6,4 +6,5 @@ const getclima = async(lat,long)=>{
 }
 
 module.exports = {
-  getclima    
+  getclima
+}
